@@ -1,0 +1,27 @@
+{
+  "name": "code-highlight",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "watch": "cross-env NODE_ENV=development webpack -w",
+    "build:dev": "cross-env NODE_ENV=development webpack",
+    "build:production": "cross-env NODE_ENV=production webpack -p"
+  },
+  "repository": "https://github.com/sunnybogawat/code-highlight.git",
+  "license": "MIT",
+  "peerDependency": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "cross-env": "^5.0.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "styled-components": "^2.1.1",
+    "webpack": "^3.4.0"
+  }
+}
